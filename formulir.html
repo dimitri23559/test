@@ -10,20 +10,67 @@
     <h1 align="center"></h1>
     <table border="1" cellspacing="0" cellpadding="5" align="center" width="400">
         <tr>
-            <TD><center></center></TD>
+            <TD></TD>
             <td>keterangan</td>
         </tr>
         <tr>
-            <td><label ><center>nama:</center></label><br></td>
+            <td><label >nama:</label><br></td>
             <td><input type="username"></td>
         </tr>
         <tr>
-            <td><label><center>password:</center></label><br></td>
+            <td><label>password:</label><br></td>
             <td><input type="password"></td>
         </tr>
         <tr>
-            <td><center>Tanggal lahir:</center> </td>
+            <td>Tanggal lahir: </td>
             <td><input type="date" name="tanggal"></td>
         </tr>
+        <tr>
+            <td>nomer telpon :</td>  
+            <td><input type="number" name="nomor"></td>
+        </tr>
+        <tr>
+            <td>alamat</td>
+            <td>
+            <select>
+                <option>purwokerto</option>
+                <option>dieng</option>
+            </select>
+            </td>
+
+        </tr>
+        <tr>
+            <td>alamat:</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td>hobi</td>
+            <td><form>
+                  <input type="radio" id="sepeda" name="hobi" value="HTML">
+                  <label for="sepeda">sepeda</label><br>
+                  <input type="radio" id="tidur" name="hobi" value="CSS">
+                  <label for="tidur">tidur</label><br>
+                  <input type="radio" id="makan" name="hobi" value="JavaScript">
+                  <label for="makan">makan</label>
+                </form> </td>
+        </tr>
+        <tr>
+            <td>makanan favorit</td>
+            <td><input list="makanan" name="makanan" id="Makanan">
+                <datalist id="makanan">
+                  <option value="rames">
+                  <option value="rendang">
+                  <option value="nasi goreng">
+                  <option value="indomie">
+                  <option value="sarimi">
+                </datalist></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Submit">
+                <input type="reset" value="Reset"/></td>
+        </tr>
+
+        
 </body>
 </html>
